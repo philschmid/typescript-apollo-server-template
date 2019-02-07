@@ -7,6 +7,6 @@ This template is based on the official `express` template from OpenFaaS. It allo
 ## Usage
 
 ```shell
-faas-cli template pull
+faas-cli template pull https://github.com/philschmid/typescript-apollo-server-template.git
 faas-cli new my-typescript-function --lang typescript-apollo
 ```
